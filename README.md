@@ -146,7 +146,6 @@ Includes:
 By the end of this project, you’ll have:
 - ✔️ A fully merged, cleaned, and analyzed dataset
 - ✔️ NLP-enhanced, clustered feature sets
-- ✔️ Multiple trained and evaluated recommendation models
 - ✔️ A deployed web app via Streamlit on AWS
 
 ---
