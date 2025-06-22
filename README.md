@@ -66,9 +66,18 @@ Design a recommendation system that:
     
 ### 6. **Application Development**
 - Build a user interface with **Streamlit** to:
+![image](https://github.com/user-attachments/assets/2505bef5-c1ea-4c9b-9e79-e06c053e4292)
   - Accept user preferences
-  - Show recommendations
+![image](https://github.com/user-attachments/assets/e8b96c77-0e0e-4894-b785-cb9dd2ff05e1)
+   - Show recommendations
+ ![image](https://github.com/user-attachments/assets/9fcd5014-4262-4d44-9574-77204e53104d)
+ 
   - Display insights from EDA
+![image](https://github.com/user-attachments/assets/d5b5118c-6129-4106-b2a0-19fc26af4f0f)
+
+
+
+
 
 ### 7. **Deployment**
 - Deploy the Streamlit app on **AWS EC2** or **Elastic Beanstalk** for scalability and public access.
