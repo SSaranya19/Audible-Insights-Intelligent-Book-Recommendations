@@ -10,7 +10,6 @@ Design a recommendation system that:
 - Retrieves and processes book data
 - Cleans and merges datasets
 - Applies NLP and clustering techniques
-- Develops multiple recommendation models
 - Deploys a user-friendly application via Streamlit on AWS
 
 ---
@@ -64,7 +63,7 @@ Design a recommendation system that:
   - Content-Based Filtering
   - Clustering-Based Recommendations
   - Hybrid Models
-  - 
+    
 ### 6. **Application Development**
 - Build a user interface with **Streamlit** to:
   - Accept user preferences
