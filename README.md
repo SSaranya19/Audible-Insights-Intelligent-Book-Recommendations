@@ -172,7 +172,7 @@ By the end of this project, you’ll have:
 Clone the repository and start discovering your next favorite book today!
 
 ```bash
-git clone https://github.com/yourusername/audible-insights.git
-cd audible-insights
+git clone https://github.com/SSaranya19/Audible-Insights-Intelligent-Book-Recommendations.git
+cd Audible-Insights-Intelligent-Book-Recommendations
 streamlit run book_recommendation_app.py
 ```
