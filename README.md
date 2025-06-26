@@ -80,8 +80,8 @@ Design a recommendation system that:
 
 
 ### 7. **Deployment**
-- Deploy the Streamlit app on **AWS EC2** or **Elastic Beanstalk** for scalability and public access.
-
+- Deployed the Streamlit app on **AWS EC2** for scalability and public access.
+![image](https://github.com/user-attachments/assets/99ec3b2f-702b-4b39-bbab-39a8314b18e3)
 ---
 
 ## 🔁 Data Flow & Architecture
