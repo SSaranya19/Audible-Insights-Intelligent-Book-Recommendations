@@ -74,10 +74,8 @@ Design a recommendation system that:
  
   - Display insights from EDA
 ![image](https://github.com/user-attachments/assets/d5b5118c-6129-4106-b2a0-19fc26af4f0f)
-
-
-
-
+![image](https://github.com/user-attachments/assets/bd097194-5983-4c95-949f-35df3804bf9a)
+![image](https://github.com/user-attachments/assets/b506f57c-09c0-4769-9a43-febf5d1bf804)
 
 ### 7. **Deployment**
 - Deployed the Streamlit app on **AWS EC2** for scalability and public access.
