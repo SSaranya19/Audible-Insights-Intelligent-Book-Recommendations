@@ -57,8 +57,7 @@ Design a recommendation system that:
 ### 4. **NLP and Clustering**
 - Apply NLP on book titles/descriptions to extract features.
 - Use clustering (K-Means, DBSCAN) to group similar books.
-
-**Clustering Scores**
+- **Clustering Scores**
 
   ![image](https://github.com/user-attachments/assets/243fd356-5cbd-4ac9-8501-428080275798)
 
@@ -69,8 +68,9 @@ Design a recommendation system that:
   - Clustering-Based Recommendations
   - Hybrid Models
 
-**Evaluation Matrix**
-  ![image](https://github.com/user-attachments/assets/1c768954-4085-415f-b503-70c46e985ba3)
+- **Evaluation Matrix**
+
+   ![image](https://github.com/user-attachments/assets/1c768954-4085-415f-b503-70c46e985ba3)
 
   
 ### 6. **Application Development**
