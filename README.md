@@ -59,7 +59,8 @@ Design a recommendation system that:
 - Use clustering (K-Means, DBSCAN) to group similar books.
 
 **Clustering Scores**
-![image](https://github.com/user-attachments/assets/243fd356-5cbd-4ac9-8501-428080275798)
+
+  ![image](https://github.com/user-attachments/assets/243fd356-5cbd-4ac9-8501-428080275798)
 
 
 ### 5. **Recommendation Models**
@@ -67,8 +68,9 @@ Design a recommendation system that:
   - Content-Based Filtering
   - Clustering-Based Recommendations
   - Hybrid Models
+
 **Evaluation Matrix**
-![image](https://github.com/user-attachments/assets/1c768954-4085-415f-b503-70c46e985ba3)
+  ![image](https://github.com/user-attachments/assets/1c768954-4085-415f-b503-70c46e985ba3)
 
   
 ### 6. **Application Development**
