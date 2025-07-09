@@ -58,12 +58,19 @@ Design a recommendation system that:
 - Apply NLP on book titles/descriptions to extract features.
 - Use clustering (K-Means, DBSCAN) to group similar books.
 
+**Clustering Scores**
+![image](https://github.com/user-attachments/assets/243fd356-5cbd-4ac9-8501-428080275798)
+
+
 ### 5. **Recommendation Models**
 - Build and evaluate:
   - Content-Based Filtering
   - Clustering-Based Recommendations
   - Hybrid Models
-    
+**Evaluation Matrix**
+![image](https://github.com/user-attachments/assets/1c768954-4085-415f-b503-70c46e985ba3)
+
+  
 ### 6. **Application Development**
 - Build a user interface with **Streamlit** to:
 ![image](https://github.com/user-attachments/assets/2505bef5-c1ea-4c9b-9e79-e06c053e4292)
