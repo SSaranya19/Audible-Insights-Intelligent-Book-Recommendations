@@ -3,6 +3,8 @@ pandas
 numpy
 scikit-learn
 matplotlib
+plotly.express
 seaborn
 joblib
+nltk
 pip==25.0.1
