@@ -1,9 +1,0 @@
-streamlit
-pandas
-numpy
-scikit-learn
-matplotlib
-plotly.express
-seaborn
-joblib
-nltk
