@@ -75,6 +75,7 @@ Design a recommendation system that:
   
 ### 6. **Application Development**
 - Build a user interface with **Streamlit** to:
+https://audible-insights-intelligent-book-recommendations.streamlit.app/
 ![image](https://github.com/user-attachments/assets/2505bef5-c1ea-4c9b-9e79-e06c053e4292)
   - Accept user preferences
 ![image](https://github.com/user-attachments/assets/e8b96c77-0e0e-4894-b785-cb9dd2ff05e1)
