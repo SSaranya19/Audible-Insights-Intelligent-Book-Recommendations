@@ -8,6 +8,9 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 import warnings
 warnings.filterwarnings('ignore')
+import os
+st.write("Current working dir:", os.getcwd())
+st.write("Files in dir:", os.listdir('.'))
 
 # Configure page settings
 st.set_page_config(
@@ -424,26 +427,26 @@ elif page == "📊 Exploratory Data Analysis":
             fig_rating = px.histogram(df, x='Rating', nbins=20, title='Distribution of Book Ratings',
                                     color_discrete_sequence=['#1f77b4'])
             fig_rating.update_layout(showlegend=False)
-            st.plotly_chart(fig_rating, use_container_width=True)
+            st.plotly_chart(fig_rating, use_container_width='content')
             
             # Price distribution
             fig_price = px.box(df, y='Price', title='Price Distribution',
                               color_discrete_sequence=['#ff7f0e'])
-            st.plotly_chart(fig_price, use_container_width=True)
+            st.plotly_chart(fig_price, use_container_width='content')
         
         with col2:
             # Reviews distribution
             fig_reviews = px.histogram(df, y='Number of Reviews', title='Distribution of Number of Reviews',
                                      color_discrete_sequence=['#2ca02c'])
             fig_reviews.update_xaxes(type="log")
-            st.plotly_chart(fig_reviews, use_container_width=True)
+            st.plotly_chart(fig_reviews, use_container_width='content')
             
             # Genre distribution
             genre_counts = df['Genre'].value_counts().head(10)
             fig_genre = px.bar(x=genre_counts.values, y=genre_counts.index, 
                               orientation='h', title='Top 10 Genres',
                               color_discrete_sequence=['#d62728'])
-            st.plotly_chart(fig_genre, use_container_width=True)
+            st.plotly_chart(fig_genre, use_container_width='content')
         
         # Correlation Analysis
         st.markdown("<h2 class='sub-header'>🔗 Correlation Analysis</h2>", unsafe_allow_html=True)
@@ -457,7 +460,7 @@ elif page == "📊 Exploratory Data Analysis":
                            color_continuous_scale='RdBu',
                            aspect='auto')
         fig_corr.update_layout(height=500)
-        st.plotly_chart(fig_corr, use_container_width=True)
+        st.plotly_chart(fig_corr, use_container_width='content')
         
         # Advanced visualizations
         st.markdown("<h2 class='sub-header'>🎯 Advanced Analysis</h2>", unsafe_allow_html=True)
@@ -472,7 +475,7 @@ elif page == "📊 Exploratory Data Analysis":
                                    title='Rating vs Number of Reviews',
                                    hover_data=['Book Name', 'Author'])
             fig_scatter.update_xaxes(type="log")
-            st.plotly_chart(fig_scatter, use_container_width=True)
+            st.plotly_chart(fig_scatter, use_container_width='content')
         
         with col2:
             # Price vs Rating by Genre
@@ -482,7 +485,7 @@ elif page == "📊 Exploratory Data Analysis":
                                         color='Genre',
                                         title='Price vs Rating by Genre',
                                         hover_data=['Book Name'])
-            st.plotly_chart(fig_price_rating, use_container_width=True)
+            st.plotly_chart(fig_price_rating, use_container_width='content')
         
         # Statistical insights
         st.markdown("<h2 class='sub-header'>💡 Key Insights</h2>", unsafe_allow_html=True)
@@ -831,7 +834,7 @@ elif page == "👤 Personalized Recommendations":
                         genre_dist = recommendations['Genre'].value_counts()
                         fig_genre_dist = px.pie(values=genre_dist.values, names=genre_dist.index, 
                                               title="Recommended Books by Genre")
-                        st.plotly_chart(fig_genre_dist, use_container_width=True)
+                        st.plotly_chart(fig_genre_dist, use_container_width='content')
                     
                     # Export functionality
                     st.markdown("<h3>📥 Export Your Recommendations</h3>", unsafe_allow_html=True)
