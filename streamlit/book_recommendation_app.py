@@ -79,7 +79,7 @@ def load_and_preprocess_data():
     """Load and preprocess the book dataset"""
     try:
         # Try to load from uploaded file or default CSV
-        df = pd.read_csv("https://github.com/SSaranya19/Audible-Insights-Intelligent-Book-Recommendations/blob/main/streamlit/clustered_books.csv")
+        df = pd.read_csv("clustered_books.csv")
         
         # Data cleaning and preprocessing
         df['Rating'] = pd.to_numeric(df['Rating'], errors='coerce')
