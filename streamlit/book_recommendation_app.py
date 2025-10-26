@@ -391,7 +391,7 @@ if page == "🏠 Dataset Overview":
                 ],
                 'Data Type': ['Text', 'Text', 'Categorical', 'Numerical', 'Numerical', 'Numerical', 'Text']
             }
-            st.dataframe(pd.DataFrame(feature_info), use_container_width=True)
+            st.dataframe(pd.DataFrame(feature_info), width='stretch')
 
         # Sample data
         with col2:
